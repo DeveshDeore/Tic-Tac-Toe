@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    background-size: cover;
+    background-color: #f0f0f0;
+    background-image: url("/image/paton.avif");
+}
+
+.container {
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background: transparent;
+}
+
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+    box-shadow: 0 0 15px rgb(144, 140, 145);
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+}
+
+.box {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 20px;
+    border: 1px solid pink;
+    box-shadow: 0 0 15px rgb(175, 15, 200);
+    font-size: 8vmin;
+    color: #b0413e;
+    background: transparent;
+}
+
+#reset-btn {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    border: 1px solid pink;
+    box-shadow: 0 0 15px rgb(175, 15, 200);
+}
+
+#new-btn {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    border: 1px solid pink;
+    box-shadow: 0 0 15px rgb(175, 15, 200);
+    margin: 1rem;
+}
+
+#winmsg {
+    color: white;
+    margin: 10px;
+    text-shadow: 0 0 15px rgb(175, 15, 200);
+    font-size: 2.25rem;
+}
+
+h1 {
+    color: rgb(235, 186, 194);
+    text-shadow: 0 0 25px rgb(175, 15, 200);
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 80px;
+}
+
+.winmsg::before {
+    content: "You Can play";
+}
+
+#navbar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#back {
+    position: static;
+    left: 0px;
+    width: 4rem;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+    box-shadow: 0 0 15px rgb(175, 15, 200);
+    border: 1px solid pink;
+    background: transparent;
+    margin: 5px;
+}
+
+#back a {
+    text-decoration: none;
+    color: white;
+}
+
+#back::before {
+    content: "< ";
+}

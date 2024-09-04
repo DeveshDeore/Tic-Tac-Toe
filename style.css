@@ -39,8 +39,9 @@ body {
     border: 1px solid pink;
     box-shadow: 0 0 15px rgb(175, 15, 200);
     font-size: 8vmin;
-    color: #b0413e;
+    color: #da4ee1;
     background: transparent;
+    text-shadow: 0 0 15px rgb(175, 15, 200);
 }
 
 #reset-btn {
